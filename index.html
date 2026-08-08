@@ -1,248 +1,201 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <title>Shang-Fu Chen</title>
-  
   <meta name="author" content="Shang-Fu Chen">
+  <meta name="description" content="Shang-Fu Chen — machine learning researcher working on generative models, robot learning, and character animation. Ph.D. from National Taiwan University.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23164e7a%22/><text x=%2250%22 y=%2272%22 text-anchor=%22middle%22 font-family=%22Georgia, 'Times New Roman', serif%22 font-size=%2264%22 font-weight=%22bold%22 fill=%22white%22>S</text></svg>">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Shang-Fu Chen</name>
-              </p>
-              <p>I am a fresh Ph.D. graduate from <a href="https://www.ntu.edu.tw/">National Taiwan University</a> under the supervision of Prof. <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>.  </p>
-              <p>
-                I completed my bachelor's degree in Electronic Engineering at NTU. During my Ph.D., I previously worked in the <a href="http://vllab.ee.ntu.edu.tw/">Vision and Learning Lab at NTU</a> and collaborated with Chunghwa Telecom Laboratories. I also worked with Inventec AI Center during my internship.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:sam145637890@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="assets/CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com.tw/citations?user=ZKOpgs4AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/ShangfuChen">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="img/sfchen_personal.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="img/sfchen_personal.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-	            <heading>Research</heading>
-	          
-              <p>
-            I'm interested in reinforcement learning, computer vision, and machine learning. My research is about utilizing machine learning techniques to solve application problems, including multi-label classification, anomaly detection, and imitation learning. 
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/hero.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>HERO: Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning</papertitle>
-        <br>
-	Ayano Hiranaka*,<strong>Shang-Fu Chen*</strong>, Chieh-Hsin Lai*, Dongjun Kim, Naoki Murata, Takashi Shibuya, Wei-Hsiang Liao, Shao-Hua Sun†, Yuki Mitsufuji†
-        <br>
-        <em>International Conference on Learning Representations (ICLR) </em>, 2025
-        <br>
-        <a href="https://hero-dm.github.io/">Project Page</a>
-        /
-        <a href="https://arxiv.org/abs/2410.05116">Paper</a>
-        <p></p>
+  <main class="site-container">
+    <header class="profile-section">
+      <div class="profile-copy">
+        <h1>Shang-Fu Chen</h1>
         <p>
-	To effectively and efficiently utilize human feedback, we develop a framework, HERO, which leverages online human feedback collected on the fly during model learning. Specifically, HERO features two key mechanisms: (1) an online training method that captures human feedback and provides informative learning signals for fine-tuning, and (2) generating images from SD's refined initialization samples, enabling faster convergence towards the evaluator's intent.        
-	</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/dbc.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>Diffusion Model-Augmented Behavioral Cloning</papertitle>
-        <br>
-	<strong>Shang-Fu Chen*</strong>,
-        Hsiang-Chun Wang*,
-        Ming-Hao Hsu,
-        Chun-Mao Lai,  
-        Shao-Hua Sun,
-        <br>
-        <em>International Conference on Machine Learning (ICML)</em>, 2024
-        <br>
-        <a href="https://nturobotlearninglab.github.io/dbc/">Project Page</a>
-        /
-        <a href="https://arxiv.org/abs/2302.13335">Paper</a>
-        /
-        <a href="https://nturobotlearninglab.github.io/dbc/asset/dbc_poster_icml2023_f4lcd.pdf">Poster</a>
-        <p></p>
-        <p>
-        This work aims to augment BC by employing diffusion models for modeling expert behaviors and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose an imitation learning framework that benefits from modeling both the conditional and joint probability of the expert distribution. Our proposed diffusion model-augmented behavioral cloning (DBC) employs a diffusion model trained to model expert behaviors and learns a policy to optimize both the BC loss (conditional) and our proposed diffusion model loss (joint). Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, dexterous manipulation, and locomotion.
+          I am a machine learning researcher working on generative models and their real-world applications. I received my Ph.D. from the Graduate Institute of Communication Engineering at <a href="https://www.ntu.edu.tw/">National Taiwan University</a> in 2025, advised by Prof. <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>.
         </p>
-      </td>
-    </tr>
+        <p>
+          Most recently, I was a Member of Technical Staff at Spuree, an AI startup focused on 3D animation, where I built generative models and video understanding pipelines for character animation and delivered them as cloud APIs. During my Ph.D., I interned with the Deep Generative Model Team at <a href="https://ai.sony/">Sony AI</a> and with Inventec AI Center, and earlier worked in the <a href="http://vllab.ee.ntu.edu.tw/">Vision and Learning Lab at NTU</a> in collaboration with Chunghwa Telecom Laboratories.
+        </p>
+        <p class="profile-contact">
+          <svg class="email-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg><span aria-hidden="true">:</span>
+          <a href="mailto:sam.sfchen@gmail.com">sam.sfchen@gmail.com</a>
+        </p>
+        <p class="profile-links">
+          <a href="assets/CV.pdf">CV</a><span aria-hidden="true">/</span>
+          <a href="https://scholar.google.com.tw/citations?user=ZKOpgs4AAAAJ&hl=en">Google Scholar</a>
+        </p>
+      </div>
+      <div class="profile-photo">
+        <a href="img/profile_img.jpg">
+          <img alt="profile photo" src="img/profile_img.jpg" class="hoverZoomLink">
+        </a>
+      </div>
+    </header>
+
+    <section class="section news-section" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <ul class="news-list">
+        <li><span class="news-date">2025</span><span>Our paper <em><a href="https://arxiv.org/abs/2510.14467">Restoring Noisy Demonstrations for Imitation Learning</a></em> is published in <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE TNNLS</a></em>.</span></li>
+        <li><span class="news-date">2025</span><span>Received the Best Ph.D. Thesis Award from the Graduate Institute of Communication Engineering, NTU.</span></li>
+        <li><span class="news-date">2025.05</span><span>Joined Spuree as a Member of Technical Staff, working on generative models for 3D character animation.</span></li>
+        <li><span class="news-date">2025.01</span><span>Our paper <em><a href="https://arxiv.org/abs/2410.05116">HERO: Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning</a></em> is accepted by <em><a href="https://iclr.cc/Conferences/2025">ICLR 2025</a></em>.</span></li>
+        <li><span class="news-date">2025.01</span><span>Received my Ph.D. from National Taiwan University.</span></li>
+      </ul>
+    </section>
+
+    <section class="section research-section">
+      <h2>Research</h2>
+      <p>
+        My research focuses on generative models and their applications in real-world scenarios, spanning image generation, robot learning, and character animation. Recent topics include fine-tuning diffusion models with human feedback, imitation learning from imperfect demonstrations, and generative models and video understanding for 3D animation. Earlier in my Ph.D., I worked on computer vision problems such as anomaly detection, face anti-spoofing, multi-label classification, and representation disentanglement.
+      </p>
+    </section>
+
+    <section class="section publications-section" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Publications</h2>
+      <div class="publications">
+        <article class="publication">
+        <div class="publication-media">
+          <img src="img/noisy_demo.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Restoring Noisy Demonstration for Imitation Learning With Diffusion Models</h3>
+          <p class="publication-authors"><strong>Shang-Fu Chen*</strong>, Co Yong*, Shao-Hua Sun</p>
+          <p class="publication-venue">IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2025</p>
+          <p>
+            Expert demonstrations often contain imperfections caused by human errors or sensor/control inaccuracies, which most imitation learning methods cannot handle. We propose a filter-and-restore framework that first filters clean samples from noisy demonstrations and then learns conditional diffusion models to recover the noisy ones. Our framework consistently outperforms existing methods across robot arm manipulation, dexterous manipulation, and locomotion tasks, and remains robust to different noise types and levels.
+          </p>
+          <p class="publication-links">
+            [ <a href="https://arxiv.org/abs/2510.14467">Paper</a> ]
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/hero.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>HERO: Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning</h3>
+          <p class="publication-authors">Ayano Hiranaka*, <strong>Shang-Fu Chen*</strong>, Chieh-Hsin Lai*, Dongjun Kim, Naoki Murata, Takashi Shibuya, Wei-Hsiang Liao, Shao-Hua Sun†, Yuki Mitsufuji†</p>
+          <p class="publication-venue">International Conference on Learning Representations (ICLR) 2025</p>
+          <p>
+            To effectively and efficiently utilize human feedback, we develop a framework, HERO, which leverages online human feedback collected on the fly during model learning. Specifically, HERO features two key mechanisms: (1) an online training method that captures human feedback and provides informative learning signals for fine-tuning, and (2) generating images from SD's refined initialization samples, enabling faster convergence towards the evaluator's intent.
+          </p>
+          <p class="publication-links">
+            [ <a href="https://arxiv.org/abs/2410.05116">Paper</a> ]
+            [ <a href="https://hero-dm.github.io/">Project Page</a> ]
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/dbc.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Diffusion Model-Augmented Behavioral Cloning</h3>
+          <p class="publication-authors"><strong>Shang-Fu Chen*</strong>, Hsiang-Chun Wang*, Ming-Hao Hsu, Chun-Mao Lai, Shao-Hua Sun</p>
+          <p class="publication-venue">International Conference on Machine Learning (ICML) 2024</p>
+          <p>
+            This work aims to augment BC by employing diffusion models for modeling expert behaviors and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose an imitation learning framework that benefits from modeling both the conditional and joint probability of the expert distribution. Our proposed diffusion model-augmented behavioral cloning (DBC) employs a diffusion model trained to model expert behaviors and learns a policy to optimize both the BC loss (conditional) and our proposed diffusion model loss (joint). Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, dexterous manipulation, and locomotion.
+          </p>
+          <p class="publication-links">
+            [ <a href="https://arxiv.org/abs/2302.13335">Paper</a> ]
+            [ <a href="https://nturobotlearninglab.github.io/DBC/">Project Page</a> ]
+            [ <a href="https://nturobotlearninglab.github.io/DBC/asset/dbc_poster_icml2023_f4lcd.pdf">Poster</a> ]
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/dg_anomaly.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Domain-Generalized Textured Surface Anomaly Detection</h3>
+          <p class="publication-authors"><strong>Shang-Fu Chen</strong>, Yu-Min Liu, Chia-Ching Lin, Trista Pei-Chun Chen, Yu-Chiang Frank Wang</p>
+          <p class="publication-venue">IEEE International Conference on Multimedia and Expo (ICME) 2022</p>
+          <p>
+            In this paper, we address the task of domain-generalized textured surface anomaly detection. We propose a patch-based meta-learning model that exhibits promising generalization ability. By observing normal and abnormal surface data across multiple source domains, our model can generalize to an unseen textured surface of interest and localize abnormal regions in the query images. Our experiments verify that our model performs favorably against state-of-the-art anomaly detection and domain generalization approaches in various settings.
+          </p>
+          <p class="publication-links">[ <a href="https://arxiv.org/abs/2203.12304">Paper</a> ]</p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/dg_face.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Learning Facial Liveness Representation for Domain Generalized Face Anti-spoofing</h3>
+          <p class="publication-authors">Zih-Ching Chen*, Lin-Hsi Tsao*, Chin-Lun Fu*, <strong>Shang-Fu Chen</strong>, Yu-Chiang Frank Wang</p>
+          <p class="publication-venue">IEEE International Conference on Multimedia and Expo (ICME) 2022</p>
+          <p>
+            This work aims to apply domain generalization and feature disentanglement for the face anti-spoofing (FAS) problem, which aims at distinguishing face spoof attacks from authentic ones. We propose a learning frame to disentangle facial liveness representation from the irrelevant ones (i.e., facial content and image domain features). The resulting liveness representation exhibits sufficient domain invariant properties and thus can be applied for performing domain-generalized FAS. Our experiments verify that our model performs favorably against state-of-the-art approaches on five benchmark datasets with various settings.
+          </p>
+          <p class="publication-links">[ <a href="https://arxiv.org/abs/2208.07828">Paper</a> ]</p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/gan_representation.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Representation Decomposition For Image Manipulation And Beyond</h3>
+          <p class="publication-authors"><strong>Shang-Fu Chen</strong>, Jia-Wei Yan, Ya-Fan Su, Yu-Chiang Frank Wang</p>
+          <p class="publication-venue">IEEE International Conference on Image Processing (ICIP) 2021</p>
+          <p>
+            This work aims to apply feature disentanglement on existing/trained generative models. To this end, we propose a decomposition-GAN (dec-GAN), which can decompose an existing latent representation into content and attribute features. Guided by the classifier pre-trained on the attributes of interest, our dec-GAN decomposes the attributes of interest from the latent representation, while data recovery and feature consistency objectives enforce the learning of our proposed method. Our experiments on multiple image datasets confirm the effectiveness and robustness of our dec-GAN over recent representation disentanglement models.
+          </p>
+          <p class="publication-links">[ <a href="https://arxiv.org/abs/2011.00788">Paper</a> ]</p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/teaser_attention_video.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Learning Hierarchical Self-Attention for Video Summarization</h3>
+          <p class="publication-authors">Yen-Ting Liu, Yu-Jhe Li, Fu-En Yang, <strong>Shang-Fu Chen</strong>, Yu-Chiang Frank Wang</p>
+          <p class="publication-venue">IEEE International Conference on Image Processing (ICIP) 2019</p>
+          <p>
+            We propose a novel framework named Hierarchical Multi-Attention Network (H-MAN), which comprises a shot-level reconstruction model and a multi-head attention model. Our attention model adopts a two-stage hierarchical structure to produce various attention maps, and we are among the first to utilize the multi-attention mechanism in the video summarization task, which brings improved performance.
+          </p>
+          <p class="publication-links">[ <a href="https://ieeexplore.ieee.org/document/8803639">Paper</a> ]</p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-media">
+          <img src="img/rnn_multilable.png" alt="" loading="lazy">
+        </div>
+        <div class="publication-content">
+          <h3>Order-Free RNN with Visual Attention for Multi-Label Classification</h3>
+          <p class="publication-authors"><strong>Shang-Fu Chen*</strong>, Yi-Chen Chen*, Chih-Kuan Yeh, Yu-Chiang Frank Wang</p>
+          <p class="publication-venue">The AAAI Conference on Artificial Intelligence (AAAI) 2018</p>
+          <p>
+            We propose a recurrent neural network (RNN) based model for image multi-label classification. Our model integrates the learning of visual attention and Long Short-Term Memory (LSTM) layers. The LSTM module learns the labels of interest and their co-occurrences, while the attention module captures the associated image regions. Unlike existing approaches, training our model does not require pre-defined label orders. We introduce a robust inference process to address the prediction error propagation problem. Our experiments on NUS-WISE and MS-COCO datasets confirm the design of our network and its effectiveness in solving multi-label classification problems.
+          </p>
+          <p class="publication-links">[ <a href="https://arxiv.org/abs/1707.05495">Paper</a> ]</p>
+        </div>
+      </article>
+      </div>
+      <p class="publication-note">* Equal contribution. † Equal advising.</p>
+    </section>
 
 
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/dg_anomaly.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>Domain-Generalized Textured Surface Anomaly Detection</papertitle>
-        <br>
-        <strong>Shang-Fu Chen</strong>,
-        Yu-Min Liu,
-        Chia-Ching Lin,
-        Trista Pei-Chun Chen,
-        Yu-Chiang Frank Wang
-        <br>
-        <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2022
-        <br>
-        <a href="https://arxiv.org/abs/2203.12304">Paper</a>
-        <p></p>
-        <p>
-        In this paper, we address the task of domain-generalized textured surface anomaly detection. We propose a patch-based meta-learning model that exhibits promising generalization ability. By observing normal and abnormal surface data across multiple source domains, our model can generalize to an unseen textured surface of interest and localize abnormal regions in the query images. Our experiments verify that our model performs favorably against state-of-the-art anomaly detection and domain generalization approaches in various settings.
-	      </p>
-      </td>
-    </tr>
 
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/dg_face.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>Learning Facial Liveness Representation for Domain Generalized Face Anti-spoofing</papertitle>
-        <br>
-        Zih-Ching Chen*,
-        Lin-Hsi Tsao*,
-        Chin-Lun Fu*,
-        <strong>Shang-Fu Chen</strong>,
-        Yu-Chiang Frank Wang
-        <br>
-        <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2022
-        <br>
-        <a href="https://arxiv.org/abs/2208.07828">Paper</a>
-        <p></p>
-        <p>
-          This work aims to apply domain generalization and feature disentanglement for the face anti-spoofing (FAS) problem, which aims at distinguishing face spoof attacks from authentic ones. We propose a learning frame to disentangle facial liveness representation from the irrelevant ones (i.e., facial content and image domain features). The resulting liveness representation exhibits sufficient domain invariant properties and thus can be applied for performing domain-generalized FAS. Our experiments verify that our model performs favorably against state-of-the-art approaches on five benchmark datasets with various settings.
-	      </p>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/gan_representation.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>Representation Decomposition For Image Manipulation And Beyond</papertitle>
-        <br>
-        <strong>Shang-Fu Chen</strong>,
-        Jia-Wei Yan,
-        Ya-Fan Su,
-        Yu-Chiang Frank Wang
-        <br>
-        <em>IEEE International Conference on Image Processing (ICIP)</em>, 2021
-        <br>
-        <a href="https://arxiv.org/abs/2011.00788">Paper</a>
-        <p></p>
-        <p>
-          This work aims to apply feature disentanglement on existing/trained generative models. To this end, we propose a decomposition-GAN (dec-GAN), which can decompose an existing latent representation into content and attribute features. Guided by the classifier pre-trained on the attributes of interest, our dec-GAN decomposes the attributes of interest from the latent representation, while data recovery and feature consistency objectives enforce the learning of our proposed method. Our experiments on multiple image datasets confirm the effectiveness and robustness of our dec-GAN over recent representation disentanglement models.
-	      </p>
-      </td>
-    </tr>
-    <!--
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/attention_video.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>Learning Hierarchical Self-Attention for Video Summarization</papertitle>
-        <br>
-        Yen-Ting Liu,
-        Yu-Jhe Li,
-        Fu-En Yang,
-        <strong>Shang-Fu Chen</strong>,
-        Yu-Chiang Frank Wang
-        <br>
-        <em>IEEE International Conference on Image Processing (ICIP)</em>, 2019
-        <br>
-        <a href="https://ieeexplore.ieee.org/document/8803639">Paper</a>
-        <p></p>
-        <p>
-        [Summarize]
-	      </p>
-      </td>
-    </tr>
-    -->
-    <tr>
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <img src='img/rnn_multilable.png' style="max-width:120%;height:auto">
-        </div>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <papertitle>Order-Free RNN with Visual Attention for Multi-Label Classification</papertitle>
-        <br>
-        <strong>Shang-Fu Chen*</strong>,
-        Yi-Chen Chen*,
-        Chih-Kuan Yeh,
-        Yu-Chiang Frank Wang
-        <br>
-        <em>The AAAI Conference on Artificial Intelligence (AAAI)</em>, 2018
-        <br>
-        <a href="https://arxiv.org/abs/1707.05495">Paper</a>
-        <p></p>
-        <p>
-          We propose a recurrent neural network (RNN) based model for image multi-label classification. Our model integrates the learning of visual attention and Long Short-Term Memory (LSTM) layers. The LSTM module learns the labels of interest and their co-occurrences, while the attention module captures the associated image regions. Unlike existing approaches, training our model does not require pre-defined label orders. We introduce a robust inference process to address the prediction error propagation problem. Our experiments on NUS-WISE and MS-COCO datasets confirm the design of our network and its effectiveness in solving multi-label classification problems.
-	      </p>
-      </td>
-    </tr>
-</tbody></table>	
-	
-        </tbody></table>
-
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Special thanks to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a> for the source code of this website. 
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+    <footer class="site-footer">
+      <p>Special thanks to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a> for the source code of this website.</p>
+      <p>Last updated: August 2026</p>
+    </footer>
+  </main>
 </body>
-
 </html>
